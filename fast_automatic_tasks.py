@@ -25,7 +25,7 @@ time.sleep(2)
 pyautogui.click(x=627, y=929)
 
 
-tabela = pd.read_excel(r"C:\Users\curve\Downloads\Vendas - Dez.xlsx")
+tabela = pd.read_excel(r"C:\Users\curve\Downloads\Vendas - Dez.xlsx") #o caminho do arquivo precisa estar exato e mais o nome do arquivo.
 print(tabela)
 
 quantidade = tabela["Quantidade"].sum() # soma da coluna quantidade
